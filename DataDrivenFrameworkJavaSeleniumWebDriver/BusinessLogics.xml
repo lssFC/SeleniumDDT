@@ -1,0 +1,9 @@
+<suite name="End To End Test Scenarios">
+<test name="Best Seller Products">
+<classes>
+<class name="unicodetechnologies.BusinessLogics.ExtractBestSellers"></class>
+</classes>
+
+</test>
+
+</suite>

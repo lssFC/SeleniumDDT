@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Admin Side Functionalities]">
+  <test name="Customer Table Values(failed)">
+    <classes>
+      <class name="unicodetechnologies.AdminSide.ExtractCustomersTableValues">
+        <methods>
+          <include name="testCheckTestSuite"/>
+          <include name="testExtractCustomersTableValues"/>
+          <include name="testCheckTestCase"/>
+        </methods>
+      </class> <!-- unicodetechnologies.AdminSide.ExtractCustomersTableValues -->
+    </classes>
+  </test> <!-- Customer Table Values(failed) -->
+</suite> <!-- Failed suite [Admin Side Functionalities] -->

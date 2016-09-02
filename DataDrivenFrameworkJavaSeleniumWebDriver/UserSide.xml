@@ -1,0 +1,17 @@
+<suite name="User Side Functionalities">
+<test name="SignIn Functionality">
+<classes>
+<class name="unicodetechnologies.UserSide.SignInCompucrack"></class>
+</classes>
+
+</test>
+
+<test name="Change Password">
+<classes>
+<class name="unicodetechnologies.UserSide.ChangePassword"></class>
+</classes>
+
+</test>
+
+
+</suite>

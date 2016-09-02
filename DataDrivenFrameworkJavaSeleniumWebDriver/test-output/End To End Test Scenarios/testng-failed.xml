@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [End To End Test Scenarios]">
+  <test name="Best Seller Products(failed)">
+    <classes>
+      <class name="unicodetechnologies.BusinessLogics.ExtractBestSellers">
+        <methods>
+          <include name="testCheckTestSuite"/>
+          <include name="testExtractBestSellers"/>
+          <include name="testCheckTestCase"/>
+        </methods>
+      </class> <!-- unicodetechnologies.BusinessLogics.ExtractBestSellers -->
+    </classes>
+  </test> <!-- Best Seller Products(failed) -->
+</suite> <!-- Failed suite [End To End Test Scenarios] -->

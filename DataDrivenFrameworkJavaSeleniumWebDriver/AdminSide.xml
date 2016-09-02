@@ -1,0 +1,9 @@
+<suite name="Admin Side Functionalities">
+<test name="Customer Table Values">
+<classes>
+<class name="unicodetechnologies.AdminSide.ExtractCustomersTableValues"></class>
+</classes>
+
+</test>
+
+</suite>

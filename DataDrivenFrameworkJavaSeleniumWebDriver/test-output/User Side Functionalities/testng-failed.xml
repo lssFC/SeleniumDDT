@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [User Side Functionalities]">
+  <test name="SignIn Functionality(failed)">
+    <classes>
+      <class name="unicodetechnologies.UserSide.ChangePassword">
+        <methods>
+          <include name="testCheckTestCase"/>
+          <include name="testCheckTestSuite"/>
+        </methods>
+      </class> <!-- unicodetechnologies.UserSide.ChangePassword -->
+      <class name="unicodetechnologies.UserSide.SignInCompucrack">
+        <methods>
+          <include name="testSignInCompucrack" invocation-numbers="0 1 2"/>
+          <include name="testCheckTestCase"/>
+        </methods>
+      </class> <!-- unicodetechnologies.UserSide.SignInCompucrack -->
+    </classes>
+  </test> <!-- SignIn Functionality(failed) -->
+  <test name="Change Password(failed)">
+    <classes>
+      <class name="unicodetechnologies.UserSide.ChangePassword">
+        <methods>
+          <include name="testCheckTestCase"/>
+          <include name="testCheckTestSuite"/>
+          <include name="testChangePassword"/>
+        </methods>
+      </class> <!-- unicodetechnologies.UserSide.ChangePassword -->
+      <class name="unicodetechnologies.UserSide.SignInCompucrack">
+        <methods>
+          <include name="testCheckTestCase"/>
+        </methods>
+      </class> <!-- unicodetechnologies.UserSide.SignInCompucrack -->
+    </classes>
+  </test> <!-- Change Password(failed) -->
+</suite> <!-- Failed suite [User Side Functionalities] -->
